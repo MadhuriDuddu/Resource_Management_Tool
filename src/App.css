@@ -1,0 +1,270 @@
+.navbar {
+  
+  height: 70px; /* Adjust the height as needed */
+  padding: 15px 20px; /* Adjust the padding as needed */
+  /* background-color: rgb(2, 2, 48); */
+}
+
+.navbar img {
+  height: 50px; /* Adjust the logo height as needed */
+}
+
+.loginbtndashboard{
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.form-control {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.loginbtndashboard {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginbtndashboard:hover {
+  background-color: #0056b3;
+}
+
+
+.disabled-button {
+  position: relative;
+}
+
+.disabled-button:hover::after {
+  content: "Disabled";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+
+.formbtn,
+.updatebtn {
+  color: #fff;
+}
+
+.formbtn:hover,
+.updatebtn:hover {
+  background-color: #007bff;
+}
+
+.disabled-formbtn,
+.disabled-updatebtn {
+  background-color: #78b6f9;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.disabled-formbtn:hover,
+.disabled-updatebtn:hover {
+  background-color: #78b6f9;
+}
+
+.updatedetbtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.updatedetbtn:hover {
+  background-color: #0056b3;
+}
+
+.user-details {
+  padding: 20px;
+}
+
+.detail {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.update-btn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-btn:hover {
+  background-color: #0056b3;
+}
+
+.box {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 8px; /* Border radius */
+  padding: 20px; /* Padding inside the box */
+  max-width: 400px; /* Maximum width of the box */
+  margin: 0 auto; /* Center the box horizontally */
+  background-color: #f9f9f9; /* Background color */
+}
+
+/* Form styling */
+.form-label {
+  font-weight: bold; /* Bold labels */
+}
+
+.form-control {
+  width: 100%; /* Full width input */
+  padding: 10px; /* Input padding */
+  margin-bottom: 15px; /* Spacing between inputs */
+}
+
+/* Button styling */
+.signupbtn2 {
+  padding: 10px 20px; /* Button padding */
+  font-size: 18px; /* Button font size */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Button border radius */
+  cursor: pointer; /* Cursor style */
+}
+
+.signupbtn2:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Alert styling */
+.alert {
+  padding: 15px; /* Alert padding */
+  margin-bottom: 15px; /* Spacing between alerts */
+  border-radius: 5px; /* Alert border radius */
+}
+
+.alert-danger {
+  color: #721c24; /* Text color for danger alert */
+  background-color: #f8d7da; /* Background color for danger alert */
+  border-color: #f5c6cb; /* Border color for danger alert */
+}
+
+.backbtn {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.backbtn:hover {
+  background-color: #0056b3;
+}
+
+.deletebtn{
+  background-color: rgb(223, 22, 22);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* App.css */
+.formbtn {
+  background-color: #007bff; /* Blue color for the "Form" button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.updatebtn {
+  background-color: #007bff; /* Green color for the "Update Details" button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.disabled-updatebtn,
+.disabled-formbtn {
+  background-color: lightgray;
+  color: gray;
+  border: none;
+  padding: 10px 20px;
+}
+
+
+.formbtn,
+.updatebtn,
+.disabled-formbtn,
+.disabled-updatebtn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.formbtn,
+.updatebtn {
+  color: #fff;
+}
+
+.formbtn:hover,
+.updatebtn:hover {
+  background-color: #007bff;
+}
+
+.disabled-formbtn,
+.disabled-updatebtn {
+  background-color: #78b6f9;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.disabled-formbtn:hover,
+.disabled-updatebtn:hover {
+  background-color: #78b6f9;
+}
